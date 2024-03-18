@@ -6,7 +6,9 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <h1 id="title">hello world</h1>
+    </div>
   </body>
   <script
     crossorigin
@@ -17,7 +19,11 @@
     src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
   ></script>
   <script>
-    const heading = React.createElement("h1", {}, "tushar viradiya");
+    const heading = React.createElement(
+      "h1",
+      { id: "title" },
+      "tushar viradrirr"
+    );
     console.log(heading);
     const root = ReactDOM.createRoot(document.getElementById("root"));
     root.render(heading);
