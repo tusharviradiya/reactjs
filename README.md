@@ -9,6 +9,7 @@
 - create element practice
 - react.development vs react.production
 - emmet
+- window - who give us this keyword
 
 ## some statement
 
