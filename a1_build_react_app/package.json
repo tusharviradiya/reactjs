@@ -1,0 +1,22 @@
+{
+  "name": "a1_build_react_app",
+  "version": "1.0.0",
+  "description": "this is my first react app and i try to build it from skretch",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "app"
+  ],
+  "author": "tushar viradiya",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
