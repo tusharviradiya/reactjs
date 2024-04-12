@@ -24,6 +24,11 @@
 - what is live server?
 - file watcher algorithm(len - C++) 
 - http and https difference
+- why react is fast ?
+- what is transitive dependencies ?
+- read parcel documentation
+- polyfill
+
 
 ## some statement
 
