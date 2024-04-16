@@ -28,7 +28,7 @@
 - what is transitive dependencies ?
 - read parcel documentation
 - polyfill
-
+- react reconciliation key read this in documentation of react
 
 ## some statement
 
