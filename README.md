@@ -29,6 +29,16 @@
 - read parcel documentation
 - polyfill
 - react reconciliation key read this in documentation of react
+- what is JSX in react(html inside javascript this statement is wrong)
+- bebal is compiler for next js language
+- jsx read and compile by babel
+- in backend jsx is use react.createElement
+- jsx is inhence readability
+- babel is along with parcel
+- what is react component, functional(new) and class based components(old)
+- function component is normal function
+- component compositiion
+- 
 
 ## some statement
 
