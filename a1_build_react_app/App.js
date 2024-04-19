@@ -6,9 +6,14 @@ import ReactDOM from "react-dom/client";
 const heading1 = React.createElement("h1", { id: "title", key: "h1" }, "Tushar Viradiya1");
 const heading2 = React.createElement("h2", { id: "title", key: "h2" }, "Tushar Viradiya2");
 const heading3 = React.createElement("h3", { id: "title", key: "h3" }, "Tushar Viradiya3");
+const heading44 = React.createElement("h3", { id: "title", key: "h3" }, "Tushar Viradiya3");
+const heading5 = React.createElement("h3", { id: "title", key: "h3" }, "Tushar Viradiya3");
+const heading6 = React.createElement("h3", { id: "title", key: "h3" }, "Tushar Viradiya3");
+const heading7 = React.createElement("h3", { id: "title", key: "h3" }, "Tushar Viradiya3");
+const heading8 = React.createElement("h3", { id: "title", key: "h3" }, "Tushar Viradiya3");
 
 const heading4 = React.createElement("div", { id: "title", tushar:"viradiya" }, [heading1, heading2, heading3]);
-const heading5 = (<h1 id="title">Tushar Viradiya</h1>);
+// const heading5 = (<h1 id="title">Tushar Viradiya</h1>);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 console.log("test", createRoot);
 root.render(heading4);
