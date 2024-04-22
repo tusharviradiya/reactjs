@@ -38,7 +38,10 @@
 - what is react component, functional(new) and class based components(old)
 - function component is normal function
 - component compositiion
-- 
+- react fragment
+- jsx has only one perent
+- join in array in js
+- cofing driven ui
 
 ## some statement
 

@@ -2,3 +2,42 @@ body {
     background-color: black;
     color: white;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* margin: 10px; */
+    border: white 1px solid;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-items > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li {
+    padding: 5px;
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.body-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card > img{
+    width: 100%;
+}
