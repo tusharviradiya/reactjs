@@ -58,6 +58,7 @@ const burgerKing = {
 }
 
 const ReastroCard = (props) => {
+    console.log(burgerKing)
     return (
         <div className="card">
             <img src={burgerKing.image} alt="image"/>
@@ -70,15 +71,15 @@ const ReastroCard = (props) => {
 
 const Body = () => {
     return (
-        <div class="body-card">
-            <ReastroCard/>
-            <ReastroCard/>
-            <ReastroCard/>
-            <ReastroCard/>
-            <ReastroCard/>
-            <ReastroCard/>
-            <ReastroCard/>
-            <ReastroCard/>
+        <div className="body-card">
+            <ReastroCard burgerKing={burgerKing}/>
+            <ReastroCard burgerKing={burgerKing}/>
+            <ReastroCard burgerKing={burgerKing}/>
+            <ReastroCard burgerKing={burgerKing}/>
+            <ReastroCard burgerKing={burgerKing}/>
+            <ReastroCard burgerKing={burgerKing}/>
+            <ReastroCard burgerKing={burgerKing}/>
+            <ReastroCard burgerKing={burgerKing}/>
         </div>
     );
 }
