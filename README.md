@@ -42,6 +42,8 @@
 - jsx has only one perent
 - join in array in js
 - cofing driven ui
+- ?. in optional chainning in js
+- diff algorithm in react
 
 ## some statement
 
