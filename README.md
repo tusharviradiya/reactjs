@@ -195,3 +195,42 @@ The server architecture may be designed for scalability and resilience to handle
 
 ### npx what is this?
 - npx is a command-line utility that comes bundled with npm (Node Package Manager). It stands for "Node Package Runner" and is used to execute npm packages without having to install them globally or locally. Here's a basic overview of what npx is and how it works:
+
+### why we need sever?
+- In essence, a server acts as the backbone of a website or web application.  It stores website content, processes user requests, ensures security, and delivers content efficiently.
+- Here's an analogy: Imagine a website as a restaurant. The server is the kitchen, where ingredients (website files) are stored and prepared (processed requests).  Just as a restaurant needs a kitchen to function, a website needs a server to operate and deliver content to users (like serving meals to customers).
+
+### what is live server?
+1. Live Server (general term):
+- A live server, in a general sense, refers to any server that is publicly accessible on the internet and actively serving content to users. This encompasses various types of servers, including:
+
+**Web servers** : Delivering website content (HTML, CSS, JavaScript) to users' web browsers.
+**Application servers**: Hosting and running web applications, often interacting with databases and providing dynamic content.
+**Database servers**: Storing and managing website or application data.
+
+2. Live Server (Specific Extension):
+- There's also a popular browser extension called "Live Server" for code editors like Visual Studio Code. This extension provides a convenient way to preview your web development projects in a live browser window:
+
+**Local Development**: You can develop your website or web application on your local machine (your computer) without needing to deploy them to a remote server.
+**Real-time Preview**: The Live Server extension automatically refreshes the browser window whenever you make changes to your code, allowing you to see the updates instantly. This eliminates the need to manually save and refresh the browser each time, streamlining your development workflow.
+
+### file watcher algorithm(len - C++) 
+- A file watcher algorithm is a technique in C++ that monitors a directory (folder) and its subdirectories for changes in files. When a specific event occurs (e.g., creation, deletion, modification), the algorithm triggers a user-defined callback function to handle the event accordingly. This enables real-time awareness of file system activity, making it valuable for various applications like:
+
+**Automatic code compilation**: When source code files change, the compiler can be automatically invoked to recompile and update the program.
+**Live reloading in web development**: Changes to HTML, CSS, or JavaScript files can trigger a browser refresh to display the updated web page.
+**Log file monitoring** : Applications can track changes to log files in real-time for debugging or system monitoring purposes.
+
+### http and https difference
+The main difference between HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer Protocol Secure) lies in security. Here's a breakdown of their key distinctions:
+
+1. HTTP:
+
+- Unencrypted Communication: Data transmitted between the browser and server in HTTP is not encrypted. This means anyone intercepting the communication can potentially read the information exchanged, including sensitive data like login credentials, credit card details, or personal messages.
+- Suitable for: HTTP is suitable for situations where security is not a major concern, such as accessing public websites with non-sensitive information.
+
+2. HTTPS:
+
+- Encrypted Communication: HTTPS uses Transport Layer Security (TLS)/Secure Sockets Layer (SSL) to encrypt the communication between the browser and server. This encryption scrambles the data, making it unreadable to anyone who might intercept it.
+- Authentication and Integrity: HTTPS can also provide authentication (verifying the identity of the server) and data integrity (ensuring data hasn't been tampered with in transit). This provides additional security for sensitive transactions.
+- Suitable for: HTTPS is essential for any website that handles sensitive information, such as online banking, e-commerce transactions, login portals, and forms where personal data is submitted.
